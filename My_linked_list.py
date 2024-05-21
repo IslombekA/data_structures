@@ -1,17 +1,3 @@
-# class Dog:
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
-#         self.color = None
-
-#     def bark(self):
-#         print("My name is " + self.name)
-
-# d1 = Dog('Islombek', 17)
-# d1.bark()
-# d2 = Dog("Alex", 26)
-# d2.bark()
-
 
 class Node:
     def __init__(self, data):
@@ -111,36 +97,3 @@ linked_list.append(30)
 linked_list.prepend(5)
 linked_list.prepend(25)
 linked_list.print_list()
-
-
-# class Employee():
-#     raise_amt = 1.04
-
-#     def __init__(self, first, last, age):
-#         self.first = first
-#         self.last = last
-#         self.age = age
-#         self.email = f'{first}.{last}@gmail.com'
-    
-#     def print_full_name(self):
-#         print(f"{self.first} {self.last}")
-
-# class Dev(Employee):
-#     raise_amt = 1.07
-
-#     def __init__(self, first, last, age, program_lang):
-#         super().__init__(first, last, age)
-#         self.program_lang = program_lang
-
-    
-# emp_1 = Employee("Islombek", "Azimboev", 17)
-# print(emp_1.email)
-# emp_2 = Dev("Laura", "Nadel", 30, "Java")
-# print(emp_2.email)
-# emp_2.print_full_name()
-# emp_1.print_full_name()
-# emp_2.first = "Elizabeth"
-
-# print(emp_2.email)
-# emp_2.print_full_name()
-# print(emp_2.first)
